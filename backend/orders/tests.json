@@ -1,0 +1,25 @@
+{
+  "tests": [
+    {
+      "name": "Create order",
+      "method": "POST",
+      "body": {
+        "user_id": 1,
+        "items": [
+          {
+            "product_id": 1,
+            "name": "Test Product",
+            "price": 100,
+            "quantity": 1
+          }
+        ]
+      },
+      "expectedStatus": 200,
+      "expectedBody": {
+        "order_id": "number",
+        "total": "number"
+      },
+      "bodyMatcher": "partial"
+    }
+  ]
+}
