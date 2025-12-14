@@ -92,7 +92,7 @@ export default function Admin() {
             <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-secondary flex items-center justify-center glow">
               <Icon name="Zap" className="text-white" size={24} />
             </div>
-            <h1 className="text-2xl font-bold glow-text">STEELTRADE - Админ</h1>
+            <h1 className="text-2xl font-bold glow-text">APKEYS - Админ</h1>
           </div>
           
           <div className="flex items-center gap-3">

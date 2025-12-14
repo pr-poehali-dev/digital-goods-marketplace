@@ -47,7 +47,7 @@ export function AuthDialog({ open, onOpenChange }: AuthDialogProps) {
         <DialogHeader>
           <DialogTitle className="text-center text-2xl font-bold flex items-center justify-center gap-2">
             <Icon name="Zap" className="text-primary" />
-            STEELTRADE
+            APKEYS
           </DialogTitle>
         </DialogHeader>
         

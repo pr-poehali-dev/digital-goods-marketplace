@@ -54,7 +54,7 @@ export default function Index() {
             <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-secondary flex items-center justify-center glow">
               <Icon name="Zap" className="text-white" size={24} />
             </div>
-            <h1 className="text-2xl font-bold glow-text">STEELTRADE</h1>
+            <h1 className="text-2xl font-bold glow-text">APKEYS</h1>
           </div>
           
           <nav className="hidden md:flex gap-6">
@@ -117,7 +117,7 @@ export default function Index() {
         </div>
       </section>
 
-      <section id="catalog" className="py-16 bg-muted/50">
+      <section id="catalog" className="py-16">
         <div className="container mx-auto px-4">
           <h3 className="text-3xl font-bold mb-8 text-center">Категории товаров</h3>
           <div className="grid grid-cols-2 md:grid-cols-5 gap-4 mb-12">
@@ -239,7 +239,7 @@ export default function Index() {
         </div>
       </section>
 
-      <section id="faq" className="py-16 bg-muted/50">
+      <section id="faq" className="py-16">
         <div className="container mx-auto px-4">
           <h3 className="text-3xl font-bold mb-8 text-center">Часто задаваемые вопросы</h3>
           <div className="max-w-3xl mx-auto">
