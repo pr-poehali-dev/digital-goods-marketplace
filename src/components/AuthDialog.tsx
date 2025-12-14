@@ -35,7 +35,11 @@ export function AuthDialog({ open, onOpenChange }: AuthDialogProps) {
     try {
       await register(registerForm.email, registerForm.password, registerForm.fullName);
       onOpenChange(false);
-      toast({ title: 'Регистрация успешна!', description: 'Добро пожаловать в SteelTrade' });
+      toast({ 
+        title: 'Регистрация успешна!', 
+        description: 'Проверьте почту для подтверждения email',
+        duration: 6000
+      });
     } catch (error) {
       toast({ title: 'Ошибка', description: 'Email уже используется', variant: 'destructive' });
     }
